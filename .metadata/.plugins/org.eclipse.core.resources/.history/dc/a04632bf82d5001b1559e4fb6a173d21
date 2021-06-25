@@ -1,0 +1,26 @@
+package overloading;
+
+public class OverTest {
+	String a;
+	int b;
+	
+	public static void OverTest(String a, int b) {
+		System.out.println("0");
+	}
+	public static void OverTest(String a, int b) {
+		
+	}
+	public static void OverTest(String a, int b) {
+		
+	}
+	public static void OverTest(String a, int b) {
+		
+	}
+
+	public void showData() {
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+}

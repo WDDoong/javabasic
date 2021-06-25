@@ -1,0 +1,13 @@
+package superclass;
+
+public class Main04 {
+	
+	public static void main(String[] args) {
+		Airplane a = new Airplane(900);
+		
+		a.fly();
+		a.breakspeed();
+		
+	}
+
+}

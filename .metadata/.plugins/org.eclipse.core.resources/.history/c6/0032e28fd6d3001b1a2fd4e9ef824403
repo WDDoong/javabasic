@@ -1,0 +1,20 @@
+package accessmodifier.game;
+
+import inheritance.game.*;
+
+public class Main extends Commoner{
+	
+	public static void main(String[] args) {
+		
+		Warrior w1 = new Warrior();
+		System.out.println(w1.id);
+		System.out.println(w1.exp);
+		System.out.println(w1.health);
+		System.out.println(w1.level);
+		System.out.println(w1.mana);
+		
+		w1.getMultishot();
+		w1.getInfo();
+	}
+
+}

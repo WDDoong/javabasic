@@ -1,0 +1,10 @@
+package interaction.game;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Monster01 m1 = new Monster01();
+		m1.
+	}
+
+}

@@ -1,0 +1,20 @@
+package accessmodifier.game;
+
+
+public class Main01 {
+	
+	public static void main(String[] args) {
+		
+		Commoner c1 = new Commoner();
+		c1.AllData();
+		
+		Warrior w1 = new Warrior();
+		System.out.println("전사 ");
+		w1.AllData();
+		w1.setWorrior(1, 15, 20, 30);
+		w1.AllData();
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package accessmodifier.game;
+
+public class Warrior extends Commoner {
+	private int doubleAttack;
+	
+	public int getdoubleAttack() {
+		return doubleAttack;
+	}
+	public void setdoubleAttack(int doubleAttack) {
+		this.doubleAttack = doubleAttack;
+	}
+	
+	public void getAllData() {
+		System.out.println("레벨:"+level);
+		System.out.println("체력: "+health);
+		System.out.println("마나: "+mana);
+		System.out.println("경험치: "+exp);
+	
+
+}
+	public void doubleAttack() {
+		
+		
+	}
+}

@@ -1,0 +1,35 @@
+package interaction.game;
+
+public class Monster01 {
+	private int hp;
+	private int atk;
+	private int defense;
+	
+	public Monster01(int ) {
+		this.hp = 50;
+		this.atk = 30;
+		this.defense = 20;
+	}
+	
+	public void injuryMonster(int Hp) {
+		if(Hp>this.hp) {
+			System.out.println("몬스터1이 패배");
+			return;
+		}
+		this.hp -= 15;
+		this.
+	}
+	
+	public void Monster(int hp, int atk, int defense) {
+		this.atk = atk;
+		this.hp = hp;
+		this.defense = defense;
+	}
+	
+	public int getHit() {
+		return hp;
+	}
+	
+	
+
+}

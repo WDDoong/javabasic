@@ -1,0 +1,16 @@
+package accessmodifier.game;
+
+import inheritance.game.*;
+
+public class Warrior extends Commoner {
+	private int daDam;
+	
+	public int getMultishot() {
+		return this.daDam;
+	}
+	public void setMultishot() {
+		this.mana -= 2;
+		this.exp += 10;
+	}
+
+}

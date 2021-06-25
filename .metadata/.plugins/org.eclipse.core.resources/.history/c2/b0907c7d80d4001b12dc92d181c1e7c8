@@ -1,0 +1,39 @@
+package accessmodifier.game;
+
+public class Warrior extends Commoner {
+	
+	private int level;
+	private int hp;
+	private int mp;
+	private int exp;
+	
+	public Warrior() {
+		level = 1;
+		exp = 0;
+		hp = 20;
+		mp = 10;
+	}
+	
+	public stat() {
+		
+	}
+	
+	
+		
+	public void AllData() {
+		System.out.println("레벨 : " + level);
+		System.out.println("경험치 : " + exp);
+		System.out.println("체력 : " + hp);
+		System.out.println("마나 : " + mp);
+		System.out.println("---------------");
+	}
+	
+	public void setWorrior(int level, int exp, int hp, int mp) {
+		this.level = level;
+		this.exp = exp;
+		this.hp = hp;
+		this.mp = mp;
+	}
+
+}
+	

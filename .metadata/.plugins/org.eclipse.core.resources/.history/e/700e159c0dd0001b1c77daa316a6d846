@@ -1,0 +1,26 @@
+
+public class Method06 {
+	
+	public static int mul(int a, int b, int c) {
+		return a * b * c ;
+	}
+	
+	public static void info() {
+		System.out.println("안녕하세요.");
+		System.out.println("자바 메서드 학습중입니다.");
+		System.out.println("3줄을 한번의 호출로 적습니다.");
+	}
+	
+	public static void main(String[] args) {
+		//mul을 호출해 결과값을 int result에 저장하기.
+		//저장된 값 콘솔창에 출력해 확인하기
+		int result = mul(1, 2, 3);
+		
+		
+		//info 메서드 반복문으로 3번 호출하기.
+		for(int i=1; i<=3; i++) {
+			info();
+		}
+	}
+
+}

@@ -1,0 +1,6 @@
+package inheritance.game;
+
+public class Archer extends Commoner {
+	//원거리데미지
+	public int dam;
+}

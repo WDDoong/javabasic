@@ -1,0 +1,5 @@
+package accessmodifier02;
+
+public class Parent {
+
+}

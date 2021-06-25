@@ -1,0 +1,11 @@
+package polymorphism.game;
+
+public class Monster2 extends Monster{
+	public Monster2() {
+	super("오크", 50, 30, 20);
+	}
+	public void showMonster() {
+		super.showMonster();
+	}
+
+}

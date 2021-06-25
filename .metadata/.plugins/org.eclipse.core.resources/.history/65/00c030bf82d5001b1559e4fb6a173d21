@@ -1,0 +1,6 @@
+package overloading;
+
+public class Main2 {
+	OverTest o1 = new OverTest();
+
+}

@@ -1,0 +1,26 @@
+package constructor;
+
+public class BasketballPlayer {
+	
+	public int height;
+	public int jump;
+	
+	public BasketballPlayer() {
+		height = h;
+		jump = j;
+	}
+	
+	public void getInfo() {
+		System.out.println();
+	}
+	
+	public void dunk() {
+		int d = h+j
+		if(d<=300) {
+			System.out.println("덩크슛에 성공했습니다.");
+		}
+		if(d>300) {
+			System.out.println("골대에 닿지 않았습니다.");
+	}
+}
+}

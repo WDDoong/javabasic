@@ -1,0 +1,38 @@
+package accessmodifier.game;
+
+public class ProtectedWarrior extends ProtectedCommoner{
+	
+	public void setHp(int hp) {
+		this.hp = hp;
+	}
+	
+	public void hunt() {
+		hp = hp-2;
+		exp = exp + 10;
+	}
+	
+	
+	
+	public void setHunt() {
+		System.out.println("전사가 사냥 시작");
+		this.hp -=2;
+		this.exp +=10;
+	}
+	
+	public void doubleAttack() {
+		System.out.println("전사가 더블어택");
+		mp = mp-=2;
+		exp = exp+=15;
+	}
+	
+	public void getWarriorStatus() {
+		System.out.println("체력 :"+ hp);
+		System.out.println("경험치 :"+ exp);
+		System.out.println("마나 :"+ mp);
+		System.out.println("레벨 :"+ level);
+		System.out.println("------------------");
+	}
+	
+	
+
+}

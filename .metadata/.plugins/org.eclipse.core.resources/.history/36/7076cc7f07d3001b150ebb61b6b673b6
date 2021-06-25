@@ -1,0 +1,9 @@
+package inheritance.game;
+
+public class Magician extends Warrior{
+	//마법데미지
+	Magician m1 = new Magician();
+	m1.id = "법사";
+	
+
+}

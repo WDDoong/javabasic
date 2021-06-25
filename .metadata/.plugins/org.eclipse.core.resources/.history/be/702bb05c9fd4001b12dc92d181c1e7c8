@@ -1,0 +1,9 @@
+package buyandsell;
+
+public class Seller extends Buyer{
+	public void sellMango() {
+		
+	}
+	
+
+}

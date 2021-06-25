@@ -1,0 +1,19 @@
+package structure;
+
+public class PersonClass {
+	
+	public String name;
+	public int age;
+	public String pNum;
+	public String address;
+	public boolean glasses;
+	
+	public static void getInfo(PersonClass p) {
+		System.out.println(p.name);
+		System.out.println(p.age);
+		System.out.println(p.pNum);
+		System.out.println(p.address);
+		System.out.println(p.glasses);
+}
+	
+}

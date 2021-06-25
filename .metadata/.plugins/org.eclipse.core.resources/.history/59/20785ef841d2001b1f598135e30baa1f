@@ -1,0 +1,16 @@
+package structure;
+
+public class Brand {
+	
+	public String name;
+	public int since;
+	public String country;
+
+	public void getInfo(Brand b) {
+		System.out.println(b.name);
+		System.out.println(b.since);
+		System.out.println(b.country);
+	}
+	
+
+}

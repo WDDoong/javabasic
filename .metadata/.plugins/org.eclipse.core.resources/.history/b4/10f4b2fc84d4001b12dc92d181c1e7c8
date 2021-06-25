@@ -1,0 +1,32 @@
+package accessmodifier.game;
+
+public class Commoner {
+	private int level;
+	private int hp;
+	private int mp;
+	private int exp;
+	
+	public Commoner() {
+		level = 1;
+		exp = 0;
+		hp = 20;
+		mp = 10;
+	}
+	
+	public Commoner(int level, int exp, int hp, int mp) {
+		this.level = level;
+		this.exp = exp;
+		this.hp = hp;
+		this.mp = mp;
+	}
+	
+	public void AllData() {
+		System.out.println("<평민>");
+		System.out.println("레벨 : " + level);
+		System.out.println("경험치 : " + exp);
+		System.out.println("체력 : " + hp);
+		System.out.println("마나 : " + mp);
+		System.out.println("---------------");
+	}
+	
+}

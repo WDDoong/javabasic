@@ -1,0 +1,21 @@
+package polymorphism;
+
+public class Actor extends Person{
+	private int movie;
+	
+	public movie(String name, int age, int movie) {
+		super(name, age);
+		this.movie = movie;
+	}
+	public void showActor() {
+		super.showPerson();
+		System.out.println("출연작 수 : " + movie);
+	}
+	public void showPerson() {
+		super.showPerson();
+		System.out.println("출연작 수 : " + movie);
+		System.out.println("-----------");
+	}
+	
+
+}

@@ -1,0 +1,12 @@
+package accessmodifier.game;
+
+public class Warrior extends Commoner {
+	
+	public Warrior() {
+		super(1, 0, 20, 10);
+	}
+	
+
+
+}
+	

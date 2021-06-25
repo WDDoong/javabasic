@@ -1,0 +1,10 @@
+package interaction.game;
+
+public class Magician {
+	private int hp;
+	private int mp;
+	private int exp;
+	private int level;
+	private int atk;
+	private int defense;
+}

@@ -1,0 +1,9 @@
+package accessmodifier.game;
+
+
+public class Archer extends Commoner {
+	private int setMp() {
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package structure;
+
+public class Structure02 {
+	
+	//person 내부의 정보를 쉽게 조회하기 위한 매서드 제작
+	
+	public static void getCatInfo(Cat c) {
+		System.out.println(c.name);
+		System.out.println(c.age);
+		System.out.println(c.Num);
+		
+	}
+	public static void main(String[] args) {	
+		Cat a = new Cat();
+		c.name = "나비";
+		c.age = 1;
+		c.Num = "스코티쉬";
+
+		
+		Cat b = new Cat();
+		c.name = "김이박";
+		c.age = 20;
+		c.Num = "010-234-8765";
+		
+		getCatInfo(a);
+		getCatInfo(b);
+		
+	}
+
+}

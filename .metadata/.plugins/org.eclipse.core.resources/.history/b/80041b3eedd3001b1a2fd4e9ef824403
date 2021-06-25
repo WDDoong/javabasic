@@ -1,0 +1,20 @@
+package accessmodifier.game;
+
+public class Commoner {
+//	레벨, 체력, 경험치, 마나수치를 변수로 만들어주세요.
+	private int level;
+	private int hp;
+	private int mp;
+	private int exp;
+
+	public void getLevel() {
+		
+	}
+		
+	public void hunt() {
+		this.mana -= 2;
+		this.exp += 10;
+	}
+	
+	
+}
