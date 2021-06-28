@@ -2,10 +2,6 @@ package accessmodifier.game;
 
 public class Warrior extends Commoner {
 
-	
-	
-	
-	
 	public void hunt() {
 		System.out.println("전사가 사냥을 시작합니다.");
 		//hp = hp - 2;

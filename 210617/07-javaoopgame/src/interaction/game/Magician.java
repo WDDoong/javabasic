@@ -25,7 +25,7 @@ public class Magician {
 			return;
 		}
 		// 오크와 전투를 할 때는 자신의 공격력을 넘깁니다.
-		orc.doBattle(this.atk);
+		orc.doBattle(this.atk);//오크의 두배틀로 이동
 		// 오크쪽 처리가 되고 나서 유저가 공격을 받았을 때
 		// 유저가 죽는 상황이라면 역시 전투 메서드 종료
 		if(orc.getAtk() > (this.hp + this.def)) {
@@ -37,8 +37,10 @@ public class Magician {
 		if(orc.getHp() <= 0) {
 			System.out.println("경험치를 20 획득했습니다.");
 			this.exp += 20;
+			System.out.println("오크와의 교전 완료!");
+			return;
 		}
-		// 모든 전투상황이 끝난뒤에 본인의 체력을 깎습니다.
+		// 오크가 살아있다면, 모든 전투상황이 끝난뒤에 본인의 체력을 깎습니다.
 		this.hp = (this.hp + this.def) - orc.getAtk();
 		System.out.println("오크와의 교전 완료!");
 		
@@ -63,6 +65,8 @@ public class Magician {
 		if(troll.getHp() <= 0) {
 			System.out.println("경험치를 25 획득했습니다.");
 			this.exp += 25;
+			System.out.println("트롤과의 교전 완료!");
+			return;
 		}
 		// 모든 전투상황이 끝난뒤에 본인의 체력을 깎습니다.
 		this.hp = (this.hp + this.def) - troll.getAtk();
@@ -88,6 +92,8 @@ public class Magician {
 		if(dragon.getHp() <= 0) {
 			System.out.println("경험치를 50 획득했습니다.");
 			this.exp += 50;
+			System.out.println("드래곤과의 교전 완료!");
+			return;
 		}
 		// 모든 전투상황이 끝난뒤에 본인의 체력을 깎습니다.
 		this.hp = (this.hp + this.def) - dragon.getAtk();
