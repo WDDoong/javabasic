@@ -1,9 +1,0 @@
-package structure;
-
-public class Structure02 {
-	
-	public static void main(String[] args) {
-		
-	}
-
-}

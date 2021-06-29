@@ -2,8 +2,10 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="Method01"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="accessmodifier02.Child"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="interaction.game.Orc"/>
+<fullyQualifiedTypeName name="interface1.Vehicle"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

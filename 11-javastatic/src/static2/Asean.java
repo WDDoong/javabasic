@@ -33,6 +33,6 @@ public class Asean {
 		System.out.println("조별과제 :"+ score);
 	}
 	
-//	Main.java를 생성해주세고, 메인 세소드 내부에 구성원을 최소 4인으로 만들어주세요.
+//	Main.java를 생성해주세고, 메인 메소드 내부에 구성원을 최소 4인으로 만들어주세요.
 
 }

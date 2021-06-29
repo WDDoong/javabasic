@@ -2,7 +2,6 @@ package polymorphism.game;
 
 public class Main {
 
-	
 	public static void main(String[] args) {
 		
 		Monster orc = new Orc();
@@ -30,12 +29,5 @@ public class Main {
 		knight.doubleAttack(orc);
 		orc.showStatus();
 		
-		knight.showStatus();
-		
-		
-		
-		
 	}
-	
-	
 }
