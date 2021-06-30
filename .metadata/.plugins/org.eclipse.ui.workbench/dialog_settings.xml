@@ -34,15 +34,27 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="/02-javabasic/src/IfElse1.java"/>
+			<item value="/02-javabasic/src/ElseIf1.java"/>
+			<item value="/03-javabasic/src/While3.java"/>
 			<item value="Array/run"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.debug.ui/org.eclipse.debug.internal.ui.quickaccess.RunQuickAccessComputer"/>
 		</list>
 		<list key="textEntries">
 			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="ifel"/>
+			<item value="else"/>
+			<item value="while"/>
 			<item value="arra"/>
 		</list>
 	</section>
