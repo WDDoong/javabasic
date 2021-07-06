@@ -22,7 +22,7 @@ public class Continue03 {
 			if(score<60) {
 				continue;
 			}else {
-				System.out.println(total/);
+				System.out.println(total);
 			}
 		}
 		}
